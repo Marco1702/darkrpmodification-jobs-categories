@@ -751,7 +751,7 @@ TEAM_CAPITAN = DarkRP.createJob("RST Capitan", {
     description = [[]],
     weapons = {"bf2017_dc15s", "bf2017_dc15a", "door_ram", "bf2017_dc17", "zeus_smokegranade", "weapon_camo", "clone_card_c8", "weapon_cuff_elastic", "realistic_hook"},
     command = "RSTCAPITAN",
-    max = 1,
+    max = 0,
     salary = 300,
     admin = 0,
     vote = false,
@@ -771,7 +771,7 @@ TEAM_LEUTNANT = DarkRP.createJob("RST Leutnant", {
     description = [[]],
     weapons = {"bf2017_dc15s", "bf2017_dc15a", "door_ram", "bf2017_dc17", "zeus_smokegranade", "weapon_camo", "clone_card_c8", "weapon_cuff_elastic", "realistic_hook"},
     command = "RSTLEUTNANT",
-    max = 1,
+    max = 0,
     salary = 300,
     admin = 0,
     vote = false,
@@ -791,7 +791,7 @@ TEAM_MAYOR = DarkRP.createJob("RST Mayor", {
     description = [[]],
     weapons = {"bf2017_dc15s", "bf2017_dc15a", "door_ram", "bf2017_dc17", "zeus_smokegranade", "weapon_camo", "clone_card_c8", "weapon_cuff_elastic", "realistic_hook"},
     command = "RSTMAYOR",
-    max = 1,
+    max = 0,
     salary = 300,
     admin = 0,
     vote = false,
@@ -811,7 +811,7 @@ TEAM_SERGANT = DarkRP.createJob("RST Sergant", {
     description = [[]],
     weapons = {"bf2017_dc15s", "bf2017_dc15a", "door_ram", "bf2017_dc17", "zeus_smokegranade", "weapon_camo", "clone_card_c8", "weapon_cuff_elastic", "realistic_hook"},
     command = "RSTSERGANT",
-    max = 1,
+    max = 0,
     salary = 300,
     admin = 0,
     vote = false,
@@ -2265,7 +2265,7 @@ TEAM_CLONETROOPER = DarkRP.createJob("Clone Trooper", {
     end
 })
 
-TEAM_FLOTTE = DarkRP.createJob("Flotten Mitglied", {
+TEAM_FLOTTENMITGLIED = DarkRP.createJob("Flotten Mitglied", {
     color = Color(82, 82, 82, 255),
     model = {"models/player/scifi_female_03.mdl","models/player/scifi_female_04.mdl","models/player/scifi_male_07.mdl","models/player/scifi_male_09.mdl","models/player/scifi_rochelle.mdl"},
     description = [[]],
@@ -2277,7 +2277,7 @@ TEAM_FLOTTE = DarkRP.createJob("Flotten Mitglied", {
     vote = false,
     hasLicense = false,
     candemote = false,
-    category = "Clone",
+    category = "Flotte",
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(300)
         ply:SetHealth(300)
@@ -2297,7 +2297,7 @@ TEAM_FLOTTEV = DarkRP.createJob("Flotten Vize-Admiral", {
     vote = false,
     hasLicense = false,
     candemote = false,
-    category = "Clone",
+    category = "Flotte",
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(300)
         ply:SetHealth(300)
